@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class swapping {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the first element");
+		int a=sc.nextInt();
+		System.out.println("enter the second element");
+		int b=sc.nextInt();
+		int temp;
+		System.out.println("before swapping");
+		System.out.println(a);
+		System.out.println(b);
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("after swapping");
+		System.out.println(a);
+		System.out.println(b);
+	
+
+	}
