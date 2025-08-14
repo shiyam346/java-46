@@ -1,0 +1,14 @@
+public class problem3 {
+	public String display()
+	{
+		String name="Apple";
+		return name;
+	}
+	public static void main(String[] args)
+	{
+		problem3 obj=new problem3();
+		String res=obj.display();
+		System.out.println(res);
+	}
+
+}
