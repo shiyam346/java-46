@@ -1,0 +1,13 @@
+public class problem2 
+{
+	public void display()
+	{
+		System.out.println("Hii! Glad to meet you");
+	}
+	public static void main(String[] args)
+	{
+		problem2 obj=new problem2();
+	     obj.display();
+	}
+
+}
